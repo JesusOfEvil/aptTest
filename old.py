@@ -9,4 +9,4 @@ while 1:
     for num in line.split(" "):
         total += int(num)
     print("Total: %d (%f%%)" % (total, total * (100.0 / out_of)))
-
+    print('Elliots first chnage')
