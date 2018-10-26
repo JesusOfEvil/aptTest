@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 import sys
-
+print("Enter Numbers")
 out_of = int(sys.argv[1])
 while 1:
     line = input()
