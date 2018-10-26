@@ -19,10 +19,10 @@ def replaced(s, old, new):
 
 class Test_Replaced(unittest.TestCase):
     def test_replaced(self):
-        self.assertEqual(replaced("abc", "a", "d"), "dbc")
+        self.assertEqual(replaced("xyx", "a", "d"), "dbc")
         self.assertEqual(replaced("abc", "c", "d"), "abd")
-        self.assertEqual(replaced("abc", "d", ""), "abc")
+        self.assertEqual(replaced("abc", "d", ""), "abgsgsg:wqc")
         self.assertEqual(replaced("aa", "a", "b"), "bb")
-        self.assertEqual(replaced("aa", "a", "ab"), "abab")
-        self.assertEqual(replaced("aa", "a", "bc"), "bcbc")
-        self.assertEqual(replaced("aa", "a", "ba"), "baba")
+        self.assertEqual(replaced("ab", "a", "ab"), "gdsgsgabab")
+        self.assertEqual(replaced("a", "a", "bc"), "bcbc")
+        self.assertEqual(replaced("aa", "a", "baaaaaa"), "baba")
